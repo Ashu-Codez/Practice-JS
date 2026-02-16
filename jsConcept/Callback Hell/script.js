@@ -7,7 +7,7 @@ api.createOrder(cart, function () {
 		});
 	});
 });
-s;
+//Pyramid of doom
 //unreadable & Unmaintainable code
 
 //Inversion of control
