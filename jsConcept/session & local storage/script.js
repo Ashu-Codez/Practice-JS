@@ -16,6 +16,8 @@ console.log(storedUser.name);
 //local storage is persistent it will not clear even if we close the browser
 //session storage is not persistent it will clear if we close the browser
 
+localStorage.setItem('hello', 'baby');
+
 // Storing data
 sessionStorage.setItem('isLoggedIn', 'true');
 // Retrieving data
@@ -23,3 +25,9 @@ const loginStatus = sessionStorage.getItem('isLoggedIn');
 console.log(loginStatus); // Output: true
 
 //remove item
+localStorage.removeItem('username');
+sessionStorage.removeItem('isLoggedIn');
+
+//clear all
+localStorage.clear();
+sessionStorage.clear();
